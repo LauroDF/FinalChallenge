@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "nome": "Isabelly Souza",
+      "email": "Breno29@examplo.qa.com.br",
+      "password": "JSlZnH_C7jD5Gk6",
+      "administrador": "true"
+    },
+    {
+      "nome": "Sra. Liz Costa",
+      "email": "Karla_Nogueira88@examplo.qa.com.br",
+      "password": "7OJjLgdNvJx7OaP",
+      "administrador": "true"
+    },
+    {
+      "nome": "Maria Barros",
+      "email": "DaviLucca.Braga69@examplo.qa.com.br",
+      "password": "C1TBDnB5VuOeE0L",
+      "administrador": "true"
+    },
+    {
+      "nome": "Júlia Silva",
+      "email": "Fabricia_Saraiva80@examplo.qa.com.br",
+      "password": "cNuKBfC1O1Rn8ss",
+      "administrador": "true"
+    },
+    {
+      "nome": "Maria Luiza Batista",
+      "email": "Caio21@examplo.qa.com.br",
+      "password": "S6EgFFjyTprTxh6",
+      "administrador": "true"
+    },
+    {
+      "nome": "Laura Reis",
+      "email": "JoaoPedro18@examplo.qa.com.br",
+      "password": "hyucneObIoWdi5I",
+      "administrador": "true"
+    },
+    {
+      "nome": "Gustavo Barros",
+      "email": "Nataniel_Xavier89@examplo.qa.com.br",
+      "password": "UBDCZ3gwLHg9LAd",
+      "administrador": "true"
+    },
+    {
+      "nome": "Alice Franco",
+      "email": "Lorraine_Xavier@examplo.qa.com.br",
+      "password": "KtOxF3HksOYF7Ji",
+      "administrador": "true"
+    },
+    {
+      "nome": "Salvador Martins",
+      "email": "Joana_Batista@examplo.qa.com.br",
+      "password": "N2YcBxtyS3j7uKs",
+      "administrador": "true"
+    },
+    {
+      "nome": "Yasmin Barros Neto",
+      "email": "Alexandre.Pereira72@examplo.qa.com.br",
+      "password": "nl2hMCXQxhPeCS2",
+      "administrador": "true"
+    }
+  ]
+}
