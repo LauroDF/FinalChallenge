@@ -24,4 +24,4 @@ fs.writeFileSync('data/dynamic/users.json', JSON.stringify(data, null, 2));
 
 console.log('Arquivo users.json gerado com sucesso!');
 
-//node data/dynamic/generateUsers.js 
+//node data/dynamic/generateUsers.js 10 

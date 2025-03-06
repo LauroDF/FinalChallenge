@@ -2,6 +2,12 @@ export const testConfig = {
     environment: {
         hml: {
             url: "http://localhost:3000",
+        },
+        dev: {
+            url: "http://localhost:3333",
+        },
+        ec2: {
+            url: "http://EndereçoIpPúblicoqSeráDisponibilizado:3000",
         }
     },
     options: {

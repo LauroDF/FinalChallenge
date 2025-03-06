@@ -81,3 +81,5 @@ export function teardown(responseData) {
     baseChecks.checkValidJsonResponse(res);
   })
 }
+
+// k6 run "C:\Users\lauro\OneDrive\Área de Trabalho\Lauro\Compass UOL\Sprint 8\projeto-ServeRest-k6\tests\teste-faker.js"
