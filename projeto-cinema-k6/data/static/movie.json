@@ -1,0 +1,12 @@
+{
+    "movie": [
+      {
+        "title": "O Máskara",
+        "description": "A vida do tímido e socialmente desajeitado bancário Stanley Ipkiss muda completamente quando ele encontra no mar uma máscara que possui o espírito do deus escandinavo Loki.",
+        "launchdate": "23 de dezembro de 1994",
+        "showtimes": [
+          "Segunda-feira, Quarta-feira e Sexta-feira"
+        ]
+    }
+  ]
+}
