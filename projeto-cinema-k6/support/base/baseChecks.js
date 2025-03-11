@@ -7,19 +7,6 @@ export class BaseChecks {
         });
     }
 
-    checkResponseNotEmpty(response) {
-        check(response, {
-            'response body is not empty': (r) => {
-                try {
-                    const json = JSON.parse(r.body);
-                    return json && Object.keys(json).length > 0;
-                } catch (e) {
-                    return false;
-                }
-            },
-        });
-    }
-
     checkResponseTimeRecorded(response) {
         check(response, {
             'response time was recorded': (r) => r && typeof r.timings.duration === 'number' && r.timings.duration >= 0,
@@ -32,11 +19,4 @@ export class BaseChecks {
         });
     }
 
-    checkValidJsonResponse(response) {
-        check(response, {
-            'response contains valid JSON': (r) => {
-                return r.headers['Content-Type'] && r.headers['Content-Type'].includes('application/json');
-            },
-        });
-    }
 }

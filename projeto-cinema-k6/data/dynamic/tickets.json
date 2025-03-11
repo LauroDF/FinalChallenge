@@ -1,74 +1,704 @@
 {
   "movies": [
     {
-      "movieId": "935cc691-e623-4501-ae9b-1f369a6365e6",
-      "userId": "d89cf6bd-84d5-4378-8f9f-8194732449ba",
-      "seatNumber": 25,
-      "price": 71.68371818967412,
-      "showtime": "2025-03-26T00:49:13.049Z"
-    },
-    {
-      "movieId": "5ad2a438-6640-4034-9078-ee8d6d6b00b2",
-      "userId": "972038fc-fdc8-41ec-a140-397d14c8c817",
+      "movieId": "af46488a-6c51-4da2-80d8-68660566288b",
+      "userId": "71c541ba-be00-43a8-bce3-44ea2c794268",
       "seatNumber": 59,
-      "price": 90.68731064113743,
-      "showtime": "2025-03-23T18:31:09.516Z"
+      "price": 82.38529009570281,
+      "showtime": "2025-04-15T16:33:22.424Z"
     },
     {
-      "movieId": "a194daa3-299e-42c1-b01b-2f2006605219",
-      "userId": "482a41fc-8487-47b8-9002-c74ffb4d1853",
-      "seatNumber": 19,
-      "price": 84.42429647973174,
-      "showtime": "2025-03-20T18:12:19.126Z"
-    },
-    {
-      "movieId": "90ac3bb3-a932-422b-b181-670be4acce11",
-      "userId": "aca1d2e4-d52c-4f3b-b56a-cd2dc6fdd0ba",
-      "seatNumber": 39,
-      "price": 23.619114543529104,
-      "showtime": "2025-04-08T15:02:40.855Z"
-    },
-    {
-      "movieId": "bc4f8462-891a-4394-8316-df1e3207de55",
-      "userId": "6a0e7073-aee0-4911-879d-4060190c339b",
-      "seatNumber": 17,
-      "price": 66.81611371416514,
-      "showtime": "2025-03-31T00:47:49.822Z"
-    },
-    {
-      "movieId": "1cb8f5c1-6608-41d4-af59-dbdea085de13",
-      "userId": "efb71153-c6c3-4748-ae2f-8572cc3902f7",
+      "movieId": "aa71c862-c44a-48b1-bd08-267d7c212db6",
+      "userId": "36ed24a3-7207-4823-8871-a4c773f9b9c1",
       "seatNumber": 14,
-      "price": 32.081064504596675,
-      "showtime": "2025-03-19T00:03:55.602Z"
+      "price": 12.891677116974275,
+      "showtime": "2025-03-18T16:34:43.009Z"
     },
     {
-      "movieId": "253d7c8d-76ae-4bd5-a898-f31c18c2f69e",
-      "userId": "3f4a1a41-2705-4037-bb60-8c13a3bd63c5",
+      "movieId": "1cd7ec14-954f-4ee6-b64b-1501d1bf0396",
+      "userId": "217108a1-c667-45c8-8bdf-530fa88fff2d",
+      "seatNumber": 10,
+      "price": 54.676001864919705,
+      "showtime": "2025-03-28T19:46:01.636Z"
+    },
+    {
+      "movieId": "f6c01eb8-3180-41c9-94a9-0fc0a68d497d",
+      "userId": "281a03fe-3e34-4a48-910b-01cf017325cc",
+      "seatNumber": 37,
+      "price": 30.11564292331414,
+      "showtime": "2025-04-17T10:05:49.764Z"
+    },
+    {
+      "movieId": "b20b1eb3-b99e-438c-b620-637ef18b5446",
+      "userId": "76d51b41-67c9-4fec-bde4-f07ebd00e365",
+      "seatNumber": 56,
+      "price": 80.89046839308838,
+      "showtime": "2025-04-14T00:36:28.398Z"
+    },
+    {
+      "movieId": "24660ed2-1b78-4600-9814-920606793fbc",
+      "userId": "c6a39593-2714-48d7-82cf-4b9f18c87b25",
+      "seatNumber": 1,
+      "price": 93.43637704487287,
+      "showtime": "2025-04-01T12:14:40.773Z"
+    },
+    {
+      "movieId": "622a2399-ee22-4ec8-aa0d-d2ed393e0fff",
+      "userId": "261ceb7b-cec3-4298-a87c-1699f4bd5303",
+      "seatNumber": 56,
+      "price": 61.09860127501896,
+      "showtime": "2025-04-24T16:50:13.750Z"
+    },
+    {
+      "movieId": "80503313-76d7-4490-b982-cd558de7dfbd",
+      "userId": "399aac76-8bb4-42d4-a4d0-676b7e6eb2b6",
+      "seatNumber": 20,
+      "price": 45.52327580181682,
+      "showtime": "2025-04-23T01:21:26.835Z"
+    },
+    {
+      "movieId": "cc16e8ef-8b57-466f-a150-1659913ee9d8",
+      "userId": "c5c7f8d9-a10e-4e53-9a65-59fe249e7274",
+      "seatNumber": 4,
+      "price": 33.02711004358826,
+      "showtime": "2025-05-06T00:34:35.868Z"
+    },
+    {
+      "movieId": "a54cbd28-0f40-4921-b774-060d137161b1",
+      "userId": "3aa78c7b-d2eb-4166-b175-8688246b40a5",
+      "seatNumber": 55,
+      "price": 51.69985070697607,
+      "showtime": "2025-05-06T10:41:18.242Z"
+    },
+    {
+      "movieId": "a281910f-d099-48f5-873b-48cb857ec101",
+      "userId": "fda903fd-ded2-41b7-8b59-5b041b8a5dd5",
+      "seatNumber": 54,
+      "price": 60.21666484820606,
+      "showtime": "2025-04-12T19:11:28.031Z"
+    },
+    {
+      "movieId": "59ead484-1cdf-445f-9227-4a41ca236f72",
+      "userId": "45ae9179-fa76-4281-9a5c-bbf2cd8b56b2",
+      "seatNumber": 30,
+      "price": 24.271632870209306,
+      "showtime": "2025-05-07T12:32:25.522Z"
+    },
+    {
+      "movieId": "4421a89f-b483-403c-84c9-e9b4d3a43e8b",
+      "userId": "f87cf268-96b6-4a74-8449-008e52ce89f8",
+      "seatNumber": 47,
+      "price": 63.95583705966102,
+      "showtime": "2025-04-02T02:59:23.392Z"
+    },
+    {
+      "movieId": "e65e847c-a07a-4704-a061-be3e7bf9adab",
+      "userId": "c7ab1669-cfdf-4ef5-935f-133499f83fbb",
       "seatNumber": 2,
-      "price": 77.03230295574816,
-      "showtime": "2025-03-11T11:47:12.735Z"
+      "price": 62.61378434341111,
+      "showtime": "2025-04-25T06:08:38.685Z"
     },
     {
-      "movieId": "6b306365-d00c-4a90-9028-22b388809660",
-      "userId": "fdfb2387-7b74-40d4-b025-a8e47235faa8",
-      "seatNumber": 57,
-      "price": 39.3846789883698,
-      "showtime": "2025-04-08T19:26:40.255Z"
+      "movieId": "4263303c-5ef0-4d4a-93d0-cbd40902985e",
+      "userId": "e199d9f4-6fd0-42d7-b71a-5a4a9802778e",
+      "seatNumber": 15,
+      "price": 74.22838775443853,
+      "showtime": "2025-04-28T23:01:18.661Z"
     },
     {
-      "movieId": "35b6200d-293e-4ea7-8e30-4b7ec7f55adc",
-      "userId": "64c8cefe-0197-4cd9-ba87-71ee97596c91",
-      "seatNumber": 33,
-      "price": 29.026184586777717,
-      "showtime": "2025-04-18T10:32:18.888Z"
+      "movieId": "cb616377-9eac-4ba3-993a-387213ffc78b",
+      "userId": "49f5d06f-fb51-4178-afb2-5e69b6c780f2",
+      "seatNumber": 27,
+      "price": 15.644899641318206,
+      "showtime": "2025-03-24T10:01:15.372Z"
     },
     {
-      "movieId": "69375c82-f2e4-44ae-9dca-f246953b74eb",
-      "userId": "5dc77c2c-920c-4958-a259-d7607944467f",
+      "movieId": "9685673f-d7a5-44af-8e9e-f026bd86582a",
+      "userId": "f5aab833-c622-471f-9396-90164e56abef",
+      "seatNumber": 1,
+      "price": 91.84745574142593,
+      "showtime": "2025-04-12T15:02:20.550Z"
+    },
+    {
+      "movieId": "5b52b2d1-666f-4bc1-a2d9-c58092e6b684",
+      "userId": "31975aea-8f29-46ab-b0c9-9b86dc6d7301",
       "seatNumber": 29,
-      "price": 80.68535554458462,
-      "showtime": "2025-03-23T22:07:24.487Z"
+      "price": 46.25214393402344,
+      "showtime": "2025-04-17T02:00:17.630Z"
+    },
+    {
+      "movieId": "58c74130-848c-4134-861a-75a83cd7a256",
+      "userId": "2f80335c-4af7-4061-a15a-6f24339b92b6",
+      "seatNumber": 33,
+      "price": 50.899606792254836,
+      "showtime": "2025-04-23T06:05:14.869Z"
+    },
+    {
+      "movieId": "240cb5c4-4291-4721-9f1c-62b4f6717aef",
+      "userId": "81f1fb55-8c3e-41ad-b021-0d9c304df8af",
+      "seatNumber": 56,
+      "price": 60.43686247084856,
+      "showtime": "2025-03-12T14:41:21.221Z"
+    },
+    {
+      "movieId": "d67146a0-c38d-4aa8-9080-d707a1e2d507",
+      "userId": "5c794892-c9a2-4b05-a6f7-ad29c05f6e25",
+      "seatNumber": 10,
+      "price": 21.74102537359977,
+      "showtime": "2025-04-05T04:00:23.855Z"
+    },
+    {
+      "movieId": "13f99080-3db7-4d22-b70d-083df63401c6",
+      "userId": "e58934b6-e63c-4812-ba5f-78633b3d323b",
+      "seatNumber": 26,
+      "price": 72.9297443049343,
+      "showtime": "2025-05-07T12:08:55.499Z"
+    },
+    {
+      "movieId": "4feebb86-b67c-4642-8ebb-bb48d9010d1b",
+      "userId": "0a9d1d8d-5f71-427f-86b0-d13062ca16f3",
+      "seatNumber": 47,
+      "price": 73.95193601351795,
+      "showtime": "2025-03-29T16:33:10.425Z"
+    },
+    {
+      "movieId": "a65b03bd-376a-43a1-9bda-72c5bf88a636",
+      "userId": "23bbeedb-7807-4568-a797-52e49584fc02",
+      "seatNumber": 60,
+      "price": 47.64772325019998,
+      "showtime": "2025-04-19T21:28:26.765Z"
+    },
+    {
+      "movieId": "dc0b6824-a50f-414c-9593-0d555d7a5229",
+      "userId": "628d079f-255c-4288-855d-720202bc1345",
+      "seatNumber": 10,
+      "price": 14.719728995775764,
+      "showtime": "2025-03-25T11:40:45.367Z"
+    },
+    {
+      "movieId": "2eb906e3-653d-4f41-91af-78707b8d7dc5",
+      "userId": "92d867da-99b0-44c1-9b52-3825715a5ced",
+      "seatNumber": 41,
+      "price": 28.738513583308297,
+      "showtime": "2025-05-04T05:28:44.126Z"
+    },
+    {
+      "movieId": "3add1c32-d07a-4d18-a6ac-96392c076165",
+      "userId": "d02d87de-3d73-4248-8454-582897d0b7c2",
+      "seatNumber": 21,
+      "price": 75.9530484213511,
+      "showtime": "2025-04-04T00:46:18.698Z"
+    },
+    {
+      "movieId": "21d4f620-33db-450a-9a1c-a8924b77b12e",
+      "userId": "fb8918b9-62a9-4d84-b8a5-cf6e323987a0",
+      "seatNumber": 13,
+      "price": 76.35685038478894,
+      "showtime": "2025-03-18T15:24:52.788Z"
+    },
+    {
+      "movieId": "cdef6c48-7781-448f-b52c-81ddd5994ed1",
+      "userId": "b89fd0f3-ba6d-4be7-9e8d-01158fe593cd",
+      "seatNumber": 23,
+      "price": 44.320024845851336,
+      "showtime": "2025-03-29T23:55:24.262Z"
+    },
+    {
+      "movieId": "f2c76b9a-db86-4cf7-b59d-d01a830ffd48",
+      "userId": "3b54af4a-f9a0-469c-9ca8-55583e31c08b",
+      "seatNumber": 28,
+      "price": 23.781211287143257,
+      "showtime": "2025-04-20T14:26:47.612Z"
+    },
+    {
+      "movieId": "9172de93-d272-46e1-bcea-8a6006b3bfb3",
+      "userId": "0c7f86f1-cfc2-4146-9070-ac5b2e5773de",
+      "seatNumber": 50,
+      "price": 37.53642201426849,
+      "showtime": "2025-04-26T01:39:34.065Z"
+    },
+    {
+      "movieId": "9360ae00-931d-4ae8-be22-bf112adb798b",
+      "userId": "c780f08f-d948-4d3b-bdd8-da0a8715aed1",
+      "seatNumber": 54,
+      "price": 93.34520300410801,
+      "showtime": "2025-04-24T16:24:42.634Z"
+    },
+    {
+      "movieId": "dbd9fbe5-e027-4527-9b5e-c4471d39b07b",
+      "userId": "b8a4d2c5-1fe3-45bc-a85e-457da5b9767f",
+      "seatNumber": 1,
+      "price": 12.894904281529891,
+      "showtime": "2025-03-19T21:46:41.280Z"
+    },
+    {
+      "movieId": "537d9bb7-aee1-4e13-b325-35fd8334c6b3",
+      "userId": "76cf6649-fc65-470e-a2aa-12d35f80e2d9",
+      "seatNumber": 26,
+      "price": 69.27864497510627,
+      "showtime": "2025-03-30T12:20:19.261Z"
+    },
+    {
+      "movieId": "d515112c-7287-444e-a5c1-450b0d3153c5",
+      "userId": "504dddce-2724-4900-8769-5aeab32c94e5",
+      "seatNumber": 20,
+      "price": 13.555646781860558,
+      "showtime": "2025-03-21T05:22:42.759Z"
+    },
+    {
+      "movieId": "c1a1ac27-9330-4929-b8ef-960777ded7de",
+      "userId": "58a615b3-b8e6-4517-9a73-137a74174d0b",
+      "seatNumber": 48,
+      "price": 50.35397803162511,
+      "showtime": "2025-04-02T14:30:44.462Z"
+    },
+    {
+      "movieId": "0a55cad4-a28f-4bcf-b619-a70ab247859b",
+      "userId": "7a797156-4876-4f07-8acb-9713becaefa7",
+      "seatNumber": 41,
+      "price": 82.07942103179629,
+      "showtime": "2025-05-03T08:14:11.348Z"
+    },
+    {
+      "movieId": "9a0de18d-5016-4af3-9e1e-97623c2841fa",
+      "userId": "fca54a87-4ec1-4187-aca2-69e754aa8b4e",
+      "seatNumber": 21,
+      "price": 18.48286059715835,
+      "showtime": "2025-04-06T13:40:10.920Z"
+    },
+    {
+      "movieId": "4d0f8a1f-8a21-4f72-897f-08fdadbea87e",
+      "userId": "c397c02d-90ce-4230-987b-3bb3ce53c497",
+      "seatNumber": 12,
+      "price": 45.10136139514776,
+      "showtime": "2025-04-22T05:10:38.989Z"
+    },
+    {
+      "movieId": "ede363c8-6c97-4566-988a-374fcf1c6b76",
+      "userId": "ee88a6c7-d0e7-47e3-a4f3-233c8564d6eb",
+      "seatNumber": 45,
+      "price": 37.25715175142019,
+      "showtime": "2025-04-07T21:30:52.395Z"
+    },
+    {
+      "movieId": "e406134e-cf42-4920-94fa-fa91f8fc3b07",
+      "userId": "8623571e-375d-4564-847a-94adad960115",
+      "seatNumber": 53,
+      "price": 65.63823086746677,
+      "showtime": "2025-05-01T13:31:52.147Z"
+    },
+    {
+      "movieId": "d2ba23f0-5ba6-4381-91eb-fcc1e221a52c",
+      "userId": "387de5d7-db8b-4d73-93ac-e7a290485d67",
+      "seatNumber": 22,
+      "price": 49.578387485828095,
+      "showtime": "2025-04-21T07:41:01.911Z"
+    },
+    {
+      "movieId": "6fa9a367-ebc3-49c8-9a49-dc932f598ebe",
+      "userId": "f77b7e30-ac45-4551-8bbc-86c15bfbb293",
+      "seatNumber": 43,
+      "price": 78.73452012688128,
+      "showtime": "2025-03-22T10:01:15.625Z"
+    },
+    {
+      "movieId": "b4b88257-5d30-4a89-9952-6f7c66cdcb19",
+      "userId": "18321afc-0ca2-4450-9cb1-a061939f30ef",
+      "seatNumber": 29,
+      "price": 96.79154781083847,
+      "showtime": "2025-04-20T05:57:35.141Z"
+    },
+    {
+      "movieId": "9eddf871-4a4f-4c3c-9b82-75f985a37693",
+      "userId": "9e2fe076-b13a-4031-ab40-109c41c6890b",
+      "seatNumber": 37,
+      "price": 10.469696334791973,
+      "showtime": "2025-03-19T10:16:03.902Z"
+    },
+    {
+      "movieId": "1737905d-0d73-43c4-9886-0f2a848ddd95",
+      "userId": "1208ff16-2737-4c6b-998d-d6e6e2da8b00",
+      "seatNumber": 53,
+      "price": 82.83382875419832,
+      "showtime": "2025-04-01T01:05:46.021Z"
+    },
+    {
+      "movieId": "8ea992fb-5849-43fc-8634-aad902286c49",
+      "userId": "25279d86-e37d-46c7-a2df-22f42e054652",
+      "seatNumber": 28,
+      "price": 54.741365115427605,
+      "showtime": "2025-03-19T23:19:19.120Z"
+    },
+    {
+      "movieId": "f888ce1b-c1b2-4f2c-82be-0cde16631bf7",
+      "userId": "ed6fd3b8-09bf-44b1-a590-d9081dc478a3",
+      "seatNumber": 33,
+      "price": 62.682166417293615,
+      "showtime": "2025-03-12T09:08:14.984Z"
+    },
+    {
+      "movieId": "12def1f2-5184-43e1-acc1-222d23086a39",
+      "userId": "cf2c0aba-d8ed-4319-9651-4110b701774e",
+      "seatNumber": 60,
+      "price": 72.06011138591245,
+      "showtime": "2025-03-15T19:25:31.164Z"
+    },
+    {
+      "movieId": "91b41376-60ba-40ad-9575-7e3213af919b",
+      "userId": "16037b5a-66f8-4f2c-80ee-5b1ffa1e6225",
+      "seatNumber": 58,
+      "price": 34.28076805601271,
+      "showtime": "2025-05-07T09:56:14.527Z"
+    },
+    {
+      "movieId": "fd683da4-33ee-452b-a405-d939fc6c1b34",
+      "userId": "904e0717-ea3f-4cc3-ad87-d0a3889b85b8",
+      "seatNumber": 31,
+      "price": 79.99808727082016,
+      "showtime": "2025-05-06T00:01:30.822Z"
+    },
+    {
+      "movieId": "6dca9d64-b746-4a8e-904a-e02d4bc4c082",
+      "userId": "7002fbf2-ac1d-4e96-b6f4-cf9e8d205177",
+      "seatNumber": 21,
+      "price": 55.8564481310254,
+      "showtime": "2025-03-11T01:51:02.615Z"
+    },
+    {
+      "movieId": "9f93992f-500f-4381-a227-a9b4ca3ed7bc",
+      "userId": "cfda6977-0968-46b0-9221-60af877478ad",
+      "seatNumber": 18,
+      "price": 23.718442648813216,
+      "showtime": "2025-03-31T22:01:13.309Z"
+    },
+    {
+      "movieId": "0e0fdf36-440a-4777-951a-bcbd4bd0d2f3",
+      "userId": "e81ea248-7a2f-4f7f-89d6-2d752691ca1c",
+      "seatNumber": 34,
+      "price": 72.6255424793951,
+      "showtime": "2025-03-24T03:17:44.999Z"
+    },
+    {
+      "movieId": "5fd20ebc-d96b-4eb0-95d8-a189e1d2c4f4",
+      "userId": "6ae62e14-09e2-4b55-b582-56eb75cb8eec",
+      "seatNumber": 42,
+      "price": 89.66118608417361,
+      "showtime": "2025-03-11T04:40:42.103Z"
+    },
+    {
+      "movieId": "2e9a6e8a-e035-46c4-b896-d10d7d437002",
+      "userId": "f3d58256-d846-4bec-89c0-b0c66652dfec",
+      "seatNumber": 5,
+      "price": 85.34067373790523,
+      "showtime": "2025-04-26T05:12:32.718Z"
+    },
+    {
+      "movieId": "9c73f062-5eb8-4a47-8790-798a0c127c6f",
+      "userId": "a602ee52-6b98-4266-a32b-c5dc57795d6a",
+      "seatNumber": 57,
+      "price": 92.1374708164388,
+      "showtime": "2025-04-26T22:50:07.375Z"
+    },
+    {
+      "movieId": "e8575aff-3912-4d7d-bacc-1ecb30f4672b",
+      "userId": "adc02a87-7fdf-4312-9cd2-36bbcca1a12d",
+      "seatNumber": 45,
+      "price": 82.28683873559858,
+      "showtime": "2025-04-21T16:22:00.042Z"
+    },
+    {
+      "movieId": "340934e3-16e2-4b67-970d-1e2a9cef1f84",
+      "userId": "aebd24ea-9387-45a2-8b35-57bde557e49d",
+      "seatNumber": 29,
+      "price": 98.01886354950307,
+      "showtime": "2025-03-30T04:11:06.582Z"
+    },
+    {
+      "movieId": "78605aba-f844-4b18-8e79-d21ec7136e14",
+      "userId": "cf230046-c31d-4927-afd9-741a725c6547",
+      "seatNumber": 42,
+      "price": 14.846037656366647,
+      "showtime": "2025-04-21T20:56:59.445Z"
+    },
+    {
+      "movieId": "7068657a-a57e-4dd6-83bf-5c3e2b78c70c",
+      "userId": "def5849d-fa84-4273-9eba-2424b1385655",
+      "seatNumber": 36,
+      "price": 44.47599250537646,
+      "showtime": "2025-04-15T03:05:38.474Z"
+    },
+    {
+      "movieId": "da4af3a4-03b7-4644-b407-57fdd3bbd9f8",
+      "userId": "6fc82476-ea4c-4eb1-8aeb-ffa494c9250d",
+      "seatNumber": 26,
+      "price": 19.564517623960732,
+      "showtime": "2025-03-31T05:59:12.462Z"
+    },
+    {
+      "movieId": "62af4dfb-8bbd-4772-be93-06eab17535bd",
+      "userId": "9936c4f3-b25a-4f7c-96a5-eec4cb7d07e3",
+      "seatNumber": 40,
+      "price": 89.21280244421524,
+      "showtime": "2025-04-24T09:50:58.403Z"
+    },
+    {
+      "movieId": "51b15942-c05d-429f-ba6f-6aa0be8f4f02",
+      "userId": "056046b6-6d8c-4c68-8943-7afb6045b6a1",
+      "seatNumber": 5,
+      "price": 25.595534758618193,
+      "showtime": "2025-04-12T16:07:30.961Z"
+    },
+    {
+      "movieId": "fcc8fd17-de4e-43af-8f46-85ad5d28b76d",
+      "userId": "ddefe5e7-072a-4ef0-aa38-7af2bed64c96",
+      "seatNumber": 45,
+      "price": 95.14852218194422,
+      "showtime": "2025-05-08T23:53:45.504Z"
+    },
+    {
+      "movieId": "f38c9eb1-6119-4b7d-9dba-6bb8be66d11e",
+      "userId": "aace5029-bc1c-4dc7-8ea3-17e1d393d0c2",
+      "seatNumber": 52,
+      "price": 85.92843050757936,
+      "showtime": "2025-04-20T07:16:29.131Z"
+    },
+    {
+      "movieId": "fa1f2b93-7b4b-4b06-8dcd-727bd71ecafd",
+      "userId": "0feaa413-7299-4edd-b3fa-32ed297b2bce",
+      "seatNumber": 36,
+      "price": 66.70942360640947,
+      "showtime": "2025-04-26T19:26:25.425Z"
+    },
+    {
+      "movieId": "59b3e603-2dc6-436b-8d87-46db1907ba18",
+      "userId": "6c1d41fd-5d13-4db8-bef6-c745c9dce32a",
+      "seatNumber": 7,
+      "price": 59.76446320586763,
+      "showtime": "2025-03-13T00:49:29.022Z"
+    },
+    {
+      "movieId": "72c0a518-6e09-4180-b4b1-506867f6630f",
+      "userId": "4163d45c-c2a4-4a8c-a27f-763a96f31b8d",
+      "seatNumber": 55,
+      "price": 20.19951569696191,
+      "showtime": "2025-04-10T02:30:49.530Z"
+    },
+    {
+      "movieId": "891a1a6b-0eef-4f13-9a1a-c22b0e191ca8",
+      "userId": "bd4a30c0-4626-4c9b-a5da-1abf61aa3873",
+      "seatNumber": 49,
+      "price": 52.152695536176914,
+      "showtime": "2025-03-14T00:11:55.221Z"
+    },
+    {
+      "movieId": "84badf40-f712-4789-b0cd-d9d4a66353a0",
+      "userId": "2a97b093-0396-4626-8dc5-d35c03043ae6",
+      "seatNumber": 22,
+      "price": 94.70470942572378,
+      "showtime": "2025-05-08T16:41:47.987Z"
+    },
+    {
+      "movieId": "24e45c6f-ffba-4cbc-a607-880a1a95e2b8",
+      "userId": "9a7244c5-c08e-4490-b244-4e9b151c36d1",
+      "seatNumber": 54,
+      "price": 19.545082017684106,
+      "showtime": "2025-03-22T05:23:15.751Z"
+    },
+    {
+      "movieId": "eaff5bc7-8f54-4498-b6c5-d6648508719d",
+      "userId": "541617df-3c66-443f-ab59-04c9ec563af6",
+      "seatNumber": 8,
+      "price": 89.10778611983528,
+      "showtime": "2025-04-12T21:54:22.560Z"
+    },
+    {
+      "movieId": "242bbf5e-9a07-4728-83a4-a2c1087f018e",
+      "userId": "57971c0f-57a0-4695-9bf7-166b45031af6",
+      "seatNumber": 56,
+      "price": 99.41802690032253,
+      "showtime": "2025-04-01T21:53:38.610Z"
+    },
+    {
+      "movieId": "d3cd0fc8-2e1c-44ab-b974-a3f0eb1aef5e",
+      "userId": "dcec52a9-09e9-454d-916e-005642b54d51",
+      "seatNumber": 50,
+      "price": 17.40424321914454,
+      "showtime": "2025-04-17T11:28:28.197Z"
+    },
+    {
+      "movieId": "60d5612e-845f-43e9-8c7f-08cf19ad8ba6",
+      "userId": "7199202e-1f72-4e4b-9005-2669609139dc",
+      "seatNumber": 40,
+      "price": 12.041862260825972,
+      "showtime": "2025-03-11T09:32:01.223Z"
+    },
+    {
+      "movieId": "90b75fc0-2072-4af4-b96a-45356b666867",
+      "userId": "0496f4ae-29d3-44a9-a8b3-4ad716b641e6",
+      "seatNumber": 43,
+      "price": 45.72204682788182,
+      "showtime": "2025-04-27T19:03:44.205Z"
+    },
+    {
+      "movieId": "d1002438-c0c7-45a6-a936-4ca352b4fba3",
+      "userId": "ba9b5b74-3b03-4c73-87ed-74f0abeafb18",
+      "seatNumber": 27,
+      "price": 15.342377876915283,
+      "showtime": "2025-04-01T22:16:32.018Z"
+    },
+    {
+      "movieId": "9001aefa-c54a-4b4c-b193-56de76358007",
+      "userId": "773ded63-8e41-47d4-82f7-3d9d59c88423",
+      "seatNumber": 25,
+      "price": 32.71354192325471,
+      "showtime": "2025-04-09T05:51:38.951Z"
+    },
+    {
+      "movieId": "d72475bc-92ec-4a39-a50a-66e89b7880e2",
+      "userId": "ea504d85-f920-492f-b101-e6a3b8745e4f",
+      "seatNumber": 54,
+      "price": 39.30792309193734,
+      "showtime": "2025-05-03T16:14:13.973Z"
+    },
+    {
+      "movieId": "4e6b5a92-a089-4429-9107-369f9d6cfa5e",
+      "userId": "c4de3986-c16f-440d-ab8a-a769e1f14d9e",
+      "seatNumber": 16,
+      "price": 55.85880326171727,
+      "showtime": "2025-03-21T16:49:40.524Z"
+    },
+    {
+      "movieId": "dc71417d-8f0f-44e7-b5cc-265fad99c6e1",
+      "userId": "1ca63b2e-721d-499c-a8ae-374ed245a131",
+      "seatNumber": 23,
+      "price": 73.37348813291533,
+      "showtime": "2025-03-26T20:56:11.587Z"
+    },
+    {
+      "movieId": "4c421fd2-1e9c-497a-81b0-43782d8bdd3e",
+      "userId": "5a8f567f-c5a3-4b77-95f0-0577c688a8d5",
+      "seatNumber": 10,
+      "price": 17.716867970352492,
+      "showtime": "2025-04-11T23:30:51.779Z"
+    },
+    {
+      "movieId": "0653e741-a20b-479c-a342-a8e2f8c3c200",
+      "userId": "f069888d-d183-488d-9a3f-7c5126a52a19",
+      "seatNumber": 39,
+      "price": 67.24798262712406,
+      "showtime": "2025-05-08T17:15:24.428Z"
+    },
+    {
+      "movieId": "3be6fe79-bb09-41fc-a5a4-d4523bc00e02",
+      "userId": "d7343114-8491-431e-854a-5f3dae26d296",
+      "seatNumber": 14,
+      "price": 12.025031767584949,
+      "showtime": "2025-04-07T11:31:12.069Z"
+    },
+    {
+      "movieId": "160e9e36-495b-4475-8349-6d1d9b7b3cf0",
+      "userId": "84a7353d-435e-40a9-9831-45a38c4a4a25",
+      "seatNumber": 45,
+      "price": 57.470953320551736,
+      "showtime": "2025-03-31T22:46:47.287Z"
+    },
+    {
+      "movieId": "d36dfdfc-7089-4764-bd78-54e1b2206875",
+      "userId": "13726536-f5fe-432c-ba2d-1fb95e5b45f7",
+      "seatNumber": 38,
+      "price": 61.824800760105624,
+      "showtime": "2025-03-23T09:44:55.614Z"
+    },
+    {
+      "movieId": "306ed6ca-c56d-4c3f-a167-d8b5d2e04d8f",
+      "userId": "ea1483cb-9f17-4eba-895a-294ab6b43e79",
+      "seatNumber": 12,
+      "price": 20.48652131127288,
+      "showtime": "2025-03-20T03:41:21.952Z"
+    },
+    {
+      "movieId": "e71664d8-5f09-4b1e-91b0-24fe0f77fd33",
+      "userId": "7fcaf807-17bf-498e-b3bc-95407e3ef232",
+      "seatNumber": 34,
+      "price": 34.796646956476735,
+      "showtime": "2025-03-26T19:10:23.791Z"
+    },
+    {
+      "movieId": "5750b163-2c07-4f49-a5e1-ee808293dbcb",
+      "userId": "346816ac-3f37-4a71-b5c7-f53b0caaa4e1",
+      "seatNumber": 15,
+      "price": 91.60727150323748,
+      "showtime": "2025-04-14T03:11:04.444Z"
+    },
+    {
+      "movieId": "01970441-8334-4628-9a35-9baa0e77237c",
+      "userId": "34df172d-ec08-418c-95b1-04944738c095",
+      "seatNumber": 1,
+      "price": 67.5086384490673,
+      "showtime": "2025-04-29T01:50:48.064Z"
+    },
+    {
+      "movieId": "2412f83f-3281-41c1-a6ba-ab276e90079a",
+      "userId": "f8366cc6-a3fd-466d-9098-b8d43c6b7305",
+      "seatNumber": 38,
+      "price": 33.42685322787814,
+      "showtime": "2025-04-14T05:03:59.404Z"
+    },
+    {
+      "movieId": "88af24e5-c776-45ef-9e67-641fd10ea7c3",
+      "userId": "7ef2827b-4749-4f86-8979-36ee77128706",
+      "seatNumber": 15,
+      "price": 69.96612557279445,
+      "showtime": "2025-04-21T15:55:28.457Z"
+    },
+    {
+      "movieId": "6f031cd5-5171-4c08-ba25-9c70f4fba4b9",
+      "userId": "68b78a62-1b45-428f-b7f4-de985190ec32",
+      "seatNumber": 39,
+      "price": 31.562987283484755,
+      "showtime": "2025-04-05T16:13:05.427Z"
+    },
+    {
+      "movieId": "b3b11b64-41cb-42b9-9a2a-8bd19bd2053d",
+      "userId": "e8dfd415-dfe5-4f63-8a8d-426cb67aab12",
+      "seatNumber": 60,
+      "price": 51.45062767213359,
+      "showtime": "2025-03-14T12:03:20.090Z"
+    },
+    {
+      "movieId": "c66e7b68-3465-4b50-b56c-38525c57f071",
+      "userId": "524711f0-fdd7-4ec9-ac15-e4854786d766",
+      "seatNumber": 19,
+      "price": 99.26121219222432,
+      "showtime": "2025-04-12T08:55:33.310Z"
+    },
+    {
+      "movieId": "3462b747-6593-48c6-a921-16dad95116af",
+      "userId": "449bc6bb-e3d3-499e-a39e-12817d8bd8a9",
+      "seatNumber": 53,
+      "price": 99.54584136032494,
+      "showtime": "2025-04-23T19:58:31.111Z"
+    },
+    {
+      "movieId": "3b97e171-ff2c-438f-84e0-3651970ebe65",
+      "userId": "ac31d673-d190-4288-8376-e7d9f1dfa927",
+      "seatNumber": 8,
+      "price": 64.55295941649347,
+      "showtime": "2025-03-14T12:36:06.008Z"
+    },
+    {
+      "movieId": "79addc33-0535-4baa-8218-79b2cc5a33e1",
+      "userId": "7b2c18dd-a190-41ac-9331-6f741dc9baf0",
+      "seatNumber": 36,
+      "price": 64.29553750007618,
+      "showtime": "2025-05-08T06:40:39.958Z"
+    },
+    {
+      "movieId": "4c67c095-48a1-4bef-83c2-5213b9bd2044",
+      "userId": "e9554142-5665-4186-88b7-223e3dd4205e",
+      "seatNumber": 13,
+      "price": 72.93320140816496,
+      "showtime": "2025-04-14T00:21:34.112Z"
     }
   ]
 }
