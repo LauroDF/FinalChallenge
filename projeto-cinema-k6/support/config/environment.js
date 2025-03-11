@@ -65,6 +65,23 @@ export const testConfig = {
                 http_req_duration: ['p(95)<1000'],
                 http_req_failed: ['rate<0.05']
             }
+        },
+        performanceTest: {
+            stages: [
+                { duration: '1m', target: 100 }, // Simula 100 requisições de criação de filmes por segundo
+                { duration: '2m', target: 50 }, // Mantém carga moderada para operações de atualização
+                { duration: '1m', target: 30 }, // Redução gradual para operações de exclusão
+            ],
+            thresholds: {
+                http_req_duration: [
+                    'p(95)<200', // Criação de filmes em até 200ms
+                    'p(95)<100', // Listagem de filmes em até 100ms
+                    'p(95)<50', // Detalhes de um filme em até 50ms
+                    'p(95)<300', // Atualização de filmes em até 300ms
+                    'p(95)<400' // Exclusão de filmes em até 400ms
+                ],
+                http_req_failed: ['rate<0.05'] // Até 5% de erro permitido
+            }
         }
     }
 };

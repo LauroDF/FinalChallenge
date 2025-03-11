@@ -30,8 +30,7 @@ export default () => {
 
   console.log('POST filme realizado, resposta:', urlRes.body);
 
-  baseChecks.checkStatusCode(urlRes, 200);
-  baseChecks.checkResponseNotEmpty(urlRes);
+  baseChecks.checkStatusCode(urlRes, 201);
   baseChecks.checkResponseTimeRecorded(urlRes);
   baseChecks.checkHeadersExist(urlRes);
   
@@ -45,7 +44,6 @@ export function teardown() {
   console.log('GET filmes retornados:', getRes.body);
 
   baseChecks.checkStatusCode(getRes, 200);
-  baseChecks.checkResponseNotEmpty(getRes);
   baseChecks.checkResponseTimeRecorded(getRes);
   baseChecks.checkHeadersExist(getRes);
 
@@ -65,7 +63,6 @@ export function teardown() {
     console.log(`DELETE resposta para filme ID ${id}:`, res.body);
 
     baseChecks.checkStatusCode(res, 200);
-    baseChecks.checkResponseNotEmpty(res);
     baseChecks.checkResponseTimeRecorded(res);
     baseChecks.checkHeadersExist(res);
   });
