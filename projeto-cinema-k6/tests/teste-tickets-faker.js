@@ -2,15 +2,15 @@ import { sleep } from 'k6';
 import { SharedArray } from 'k6/data';
 import { BaseRest, BaseChecks, ENDPOINTS, testConfig } from '../support/base/baseTest.js';
 import { randomItem } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
-import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+/*import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
 // HTML
 export function handleSummary(data) {
     return {
       "teste-fluxoClean-tickets-ticketsPerformanceTest.html": htmlReport(data),
     };
-}
-export const options = testConfig.options.ticketsPerformanceTest;
+}*/
+export const options = testConfig.options.smokeTest;
 
 const base_uri = testConfig.environment.cinema.url;
 const baseRest = new BaseRest(base_uri);

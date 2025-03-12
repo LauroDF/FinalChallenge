@@ -2,87 +2,136 @@
 
 ## Objetivo
 
-Este Pasta armazena os códigos para os testes da API nestjs-cinema.
+Esta pasta contém os códigos e configurações para os testes de performance da API **nestjs-cinema**.
 
-### Gerando arquivo JSON de Filmes e Tickets com faker
+## Geração de Dados de TesteRodando a API localmente
 
-**generateMovies**
-![Retorno](../Assets/generateMovies.png)
+![Docker](../Assets/docker.png)
 
-**generateTickets**
-![Retorno](../Assets/generateTickets.png)
+### Analizando Imagem da API
 
-### Testando a API nestjs-cinema com os movies gerados pelo faker
+![Docker](../Assets/Analyzing-img1.png)
+![Docker](../Assets/Analyzing-img3.png)
+![Docker](../Assets/Analyzing-img4.png)
+![Docker](../Assets/Analyzing-img5.png)
+![Docker](../Assets/Analyzing-img6.png)
+![Docker](../Assets/Analyzing-img7.png)
+![Docker](../Assets/Analyzing-img8.png)
+![Docker](../Assets/Analyzing-img9.png)
+![Docker](../Assets/Analyzing-img10.png)
+![Docker](../Assets/Analyzing-img11.png)
 
-![Retorno](../Assets/teste-faker1.png)
-![Retorno](../Assets/teste-faker2.png)
+## Geração de Dados de Teste
 
-## **Testando a API nestjs-cinema com os tickets gerados pelo faker**
+Os arquivos JSON utilizados nos testes são gerados dinamicamente com a biblioteca **faker**:
+
+- **Filmes:** `generateMovies`
+  ![Retorno](../Assets/jsonm.png)
+- **Ingressos:** `generateTickets`
+  ![Retorno](../Assets/jsont.png)
+
+## Testando a API com os Dados Gerados
+
+Os testes são realizados utilizando os arquivos gerados pelo **faker**:
+
+- **Testando a API com filmes:**  
+  ![Retorno](../Assets/t1.png)
+- **Testando a API com ingressos:**  
+  ![Retorno](../Assets/t2.png)
 
 ## Métricas de Performance
-As seguintes métricas serão monitoradas durante os testes:
 
-- **Tempo médio de resposta:** Inferior a **900ms** para rotas principais (máximo de **1s**).
+Durante os testes, as seguintes métricas são monitoradas:
+
+- **Tempo médio de resposta:** Inferior a **900ms** para rotas principais, com um limite máximo de **1s**.
 - **Throughput:** Pelo menos **20 requisições simultâneas** em uma janela de **2-5 minutos**.
-- **Taxa de erros:** Até **5% de falhas** permitidas antes de considerar um teste como falho.
+- **Taxa de erros:** Até **5% de falhas** antes de considerar um teste como falho.
 - **Tempo de recuperação:** Após testes de estresse, o sistema deve se recuperar em até **1 minuto**, mantendo a integridade dos dados.
 
-## Testes de Performance
-Os testes foram projetados para avaliar a capacidade da API sob diferentes cenários de carga e estresse:
+## Cenários de Teste de Performance
 
-### 1. Teste de Carga (Load Testing)
+Os testes foram estruturados para avaliar o comportamento da API em diferentes condições:
+
+### 1. Teste de Fumaça (Smoke Test)
+**Objetivo:** Validar rapidamente a estabilidade da API com carga mínima.
+- **Usuários virtuais (VUs):** 1
+- **Duração:** 10s
+- **Critérios de sucesso:**
+  - 95% das requisições abaixo de **1500ms**
+  - Taxa de erro menor que **5%**
+
+### 2. Teste de Carga (Load Testing)
 **Objetivo:** Avaliar o desempenho da API sob condições normais de uso.
-- **Usuários simultâneos:** 30-50
-- **Cenário:** Login > Checkout > Operações em /usuarios
-- **Resultados esperados:**
-  - Tempo médio de resposta < 900ms
-  - Throughput adequado ao número de usuários
-  - Taxa de erro < 5%
+- **Requisições simultâneas:** 30-50
+- **Duração total:** 5 minutos
+- **Critérios de sucesso:**
+  - 95% das requisições abaixo de **4000ms**
+  - Taxa de erro menor que **5%**
 
-### 2. Teste de Pico (Spike Testing)
-**Objetivo:** Verificar a resposta da API a um aumento súbito de tráfego.
-- **Usuários simultâneos:** 80-100
-- **Cenário:** Operações distribuídas entre /login e /produtos
-- **Resultados esperados:**
-  - API mantém estabilidade sem degradação severa
-  - Tempo de resposta pode aumentar, mas sem ultrapassar 1s
-  - Taxa de erro < 5%
+### 3. Teste de Pico (Spike Testing)
+**Objetivo:** Analisar a resposta da API a um aumento súbito de tráfego.
+- **Requisições simultâneas:** Até 100
+- **Duração total:** 50s
+- **Critérios de sucesso:**
+  - 95% das requisições abaixo de **1200ms**
+  - Taxa de erro menor que **15%**
 
-### 3. Teste de Estresse (Stress Testing)
-**Objetivo:** Identificar o limite da API e seu comportamento sob alta demanda.
-- **Usuários simultâneos:** 150-200
-- **Cenário:** Carga excessiva em todas as rotas principais
-- **Resultados esperados:**
-  - API deve continuar respondendo, mesmo que com maior latência
-  - Pode haver aumento na taxa de erros, mas sem falha total
-  - Recuperação total do sistema em até 1 minuto após o teste
+### 4. Teste de Estresse (Stress Testing)
+**Objetivo:** Identificar o limite da API sob alta demanda.
+- **Requisições simultâneas:** Até 100
+- **Duração total:** 6 minutos
+- **Critérios de sucesso:**
+  - 95% das requisições abaixo de **1000ms**
+  - Taxa de erro menor que **10%**
+  - Recuperação total do sistema em até **1 minuto**
 
-### 4. Teste de Volume (Volume Testing)
-**Objetivo:** Avaliar o comportamento da API com grandes volumes de dados.
-- **Cenário:** Criação massiva de usuários e produtos
-- **Resultados esperados:**
-  - Banco de dados deve suportar a carga sem degradação significativa
-  - Tempo de resposta estável dentro dos limites aceitáveis
+### 5. Teste de Resistência (Endurance Testing)
+**Objetivo:** Avaliar a estabilidade da API com carga sustentada ao longo do tempo.
+- **Requisições simultâneas:** 50
+- **Duração total:** 20 minutos
+- **Critérios de sucesso:**
+  - 95% das requisições abaixo de **1000ms**
+  - Taxa de erro menor que **5%**
 
-### 5. Teste de Escalabilidade (Scalability Testing)
-**Objetivo:** Medir a capacidade da API de aumentar ou diminuir os recursos conforme a demanda.
-- **Cenário:** Simulação de tráfego variável ao longo do tempo
-- **Resultados esperados:**
-  - API ajusta seu desempenho conforme a demanda
-  - Nenhuma falha crítica durante ajustes de carga
+### 6. Teste de Performance de Filmes (moviesPerformanceTest)
+**Objetivo:** Avaliar o impacto de operações em massa sobre a entidade "Filmes".
+- **Carga máxima:** 100 requisições/s
+- **Critérios de sucesso:**
+  - Criação: **95% abaixo de 200ms**
+  - Listagem: **95% abaixo de 100ms**
+  - Detalhes: **95% abaixo de 50ms**
+  - Atualização: **95% abaixo de 300ms**
+  - Exclusão: **95% abaixo de 400ms**
+  - Taxa de erro menor que **5%**
+
+### 7. Teste de Performance de Ingressos (ticketsPerformanceTest)
+**Objetivo:** Avaliar o impacto de operações em massa sobre a entidade "Ingressos".
+- **Carga máxima:** 50 requisições/s
+- **Critérios de sucesso:**
+  - 95% das requisições abaixo de **300ms**
+  - Taxa de erro menor que **5%**
 
 ## Ferramentas Utilizadas
-- **K6:** Execução dos testes de carga e análise de métricas.
+
+- **Docker:** Para rodar a API localmente.
+- **K6:** Para execução dos testes de carga e análise de métricas.
 - **Node.js:** Para rodar a API localmente.
-- **GitLab CI/CD:** Para automação dos testes.
+- **GitHub:** Para automação e versionamento dos testes.
+
+## Dispositivo de Testes
+
+Os testes foram executados no seguinte ambiente:
+
+- **Modelo:** Acer Nitro 5
+- **Processador:** Intel Core i7-11800H (11ª geração) @ 2.30GHz
+- **Memória RAM:** 16GB
+- **Arquitetura:** 64 bits (x64)
 
 ## Conclusão
 
+Os testes permitem avaliar o comportamento da API nestjs-cinema em diferentes condições de carga, garantindo a estabilidade e desempenho esperado.
+
 ## Melhorias Propostas
 
-## Dispositivo de testes
+Com base nos testes realizados, algumas otimizações podem ser aplicadas para melhorar o desempenho da API, como ajustes no banco de dados, caching de respostas e balanceamento de carga.
 
-- **Modelo:** Acer Nitro 5
-- **Processador:** 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz   2.30 GHz
-- **RAM Instalada:** 16,0 GB (utilizável: 15,8 GB)
-- **Tipo de Sistema:** Sistema operacional de 64 bits, processador baseado em x64
