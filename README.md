@@ -35,16 +35,6 @@ Os testes da API NestJS Cinema foram realizados com foco nas rotas de gerenciame
 
 ---
 
-## Observações
-
-- Para dúvidas, consulte a [documentação oficial da API](https://nestjs-cinema.example.com/docs).
-
-## **Menções Honrosas**
-
-Gostaria de agradecer aos meus colegas da turma PerfMechs 05 B e nosso SM pelo apoio e ajuda na realização desta sprint.
-
----
-
 ## Testando a API NestJS Cinema
 
 ### 1. Planejamento de Testes
@@ -86,6 +76,12 @@ Antes de iniciar, foi criado um plano de testes detalhado que defina os objetivo
 
 ---
 
-### **Outras Informações Relevantes**
+## Observações
 
-Para mais detalhes sobre o andamento e progressão dos testes, consulte a [Wiki do Projeto](https://gitlab.com/lauroferneda11/sprint_8/wiki).
+- Para dúvidas, consulte a [documentação oficial da API](https://github.com/juniorschmitz/nestjs-cinema/tree/main).
+
+## **Menções Honrosas**
+
+Gostaria de agradecer à Thaise, Jean e Beto, aos meus colegas da turma PerfMechs 05 B e nosso SM pelo apoio e ajuda na realização desta sprint.
+
+---
