@@ -111,6 +111,44 @@ Os testes foram estruturados para avaliar o comportamento da API em diferentes c
   - 95% das requisições abaixo de **300ms**
   - Taxa de erro menor que **5%**
 
+## Resultados obtidos:
+
+### **GET-ID-movies-loadTest**:
+![Retorno](../Assets/db1.png)
+
+### **GET-ID-movies-smokeTest**:
+![Retorno](../Assets/db2.png)
+
+### **GET-movies-smokeTest**:
+![Retorno](../Assets/db3.png)
+
+### **GET-movies-stressTest**:
+![Retorno](../Assets/db4.png)
+
+### **POST-DELETE-movies-smokeTest**:
+![Retorno](../Assets/db5.png)
+
+### **POST-DELETE-movies-spikeTest**:
+![Retorno](../Assets/db6.png)
+
+### **PUT-ID-movies-enduranceTest**:
+![Retorno](../Assets/db7.png)
+
+### **PUT-ID-movies-smokeTest**:
+![Retorno](../Assets/db8.png)
+
+### **teste-fluxoClean-movies-moviesPerformanceTest**:
+![Retorno](../Assets/db9.png)
+
+### **teste-fluxoClean-movies-smokeTest**:
+![Retorno](../Assets/db10.png)
+
+### **teste-fluxoClean-tickets-smokeTest**:
+![Retorno](../Assets/db11.png)
+
+### **teste-fluxoClean-tickets-ticketsPerformanceTest**:
+![Retorno](../Assets/db12.png)
+
 ## Ferramentas Utilizadas
 
 - **Docker:** Para rodar a API localmente.
