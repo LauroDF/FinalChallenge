@@ -2,8 +2,15 @@ import { sleep } from 'k6';
 import { SharedArray } from 'k6/data';
 import { randomItem } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
 import { getMovies, createMovie, deleteMovie, testConfig } from '../support/utils/apiRequests.js';
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
-export const options = testConfig.options.smokeTest;
+// HTML
+export function handleSummary(data) {
+    return {
+      "POST-DELETE-movies-spikeTest.html": htmlReport(data),
+    };
+}
+export const options = testConfig.options.spikeTest;
 
 const data = new SharedArray('Users', function () {
   const jsonData = JSON.parse(open('../data/dynamic/movies.json'));
